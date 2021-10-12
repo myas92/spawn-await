@@ -1,10 +1,9 @@
-const spawnNode = require('child_process').spawnSync;
+import {spawnSync} from "child_process";
 export const Spawn = (command:any) => {
 
     try {
-        const child = spawnNode(command)
-        if (child.status == 1) {
-            let x = child.stderr.toString()
+        const child = spawnSync(command)
+        if (child.status === 1) {
             return { stdout: child.stdout.toString(), stderr: child.stderr.toString(), status: child.status }
 
         }
@@ -13,8 +12,6 @@ export const Spawn = (command:any) => {
         }
 
     } catch (error) {
-        console.log(error);
         return error
     }
 }
-
