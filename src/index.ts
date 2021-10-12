@@ -3,15 +3,14 @@ export const Spawn = (command:any) => {
 
     try {
         const child = spawnSync(command)
-        if (child.status === 1) {
+        if (child.status) {
             return { stdout: child.stdout.toString(), stderr: child.stderr.toString(), status: child.status }
 
-        }
-        else{
-            throw new Error("Command Is Invalid")
         }
 
     } catch (error) {
         return error
     }
 }
+
+Spawn("ls")
