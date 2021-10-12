@@ -1,8 +1,9 @@
 {
   "name": "spawn-await",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "spwan promise",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -28,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohammadyaser/async-spwan.git"
+    "url": "git+https://github.com/mohammadyaser/spawn-await.git"
   },
-  "homepage": "https://github.com/mohammadyaser/async-spwan.git#readme",
+  "homepage": "https://github.com/mohammadyaser/spawn-await.git#readme",
   "files": [
     "lib/**/*"
   ]
