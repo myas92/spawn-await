@@ -1,4 +1,5 @@
-import { Greeter } from '../index';
+import { Spawn } from '../index';
 test('My Greeter', () => {
-  expect(Greeter('Carl')).toBe('Hello Carl');
+  let res:any =  Spawn('man');
+  expect(res.status).toBe(1);
 });
