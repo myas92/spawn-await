@@ -1,6 +1,6 @@
 {
-  "name": "spawn-typescript",
-  "version": "1.0.0",
+  "name": "promise-spawn",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,11 @@
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.4.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadyaser/async-spwan.git"
+  },
+  "homepage": "https://github.com/mohammadyaser/async-spwan.git#readme",
   "files": [
     "lib/**/*"
   ]
