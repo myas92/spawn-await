@@ -1,6 +1,6 @@
 # spawn-await
 
-[spawn-await](https://github.com/mohammadyaser/spawn-await) is synchronous module and will block the Node.js event loop, pausing execution of any additional code until the spawned process exits.
+[spawn-await](https://github.com/myas92/spawn-await) is synchronous module and will block the Node.js event loop, pausing execution of any additional code until the spawned process exits.
 
 #### NOTE: don't need to `await` for using `spawn`
 

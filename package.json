@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mohammadyaser/spawn-await.git"
+    "url": "git+https://github.com/myas92/spawn-await.git"
   },
-  "homepage": "https://github.com/mohammadyaser/spawn-await.git#readme",
+  "homepage": "https://github.com/myas92/spawn-await.git#readme",
   "files": [
     "lib/**/*"
   ]
