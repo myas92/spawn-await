@@ -7,8 +7,11 @@ https://itnext.io/step-by-step-building-and-publishing-an-npm-typescript-package
 3: npm link module_name
 https://bugfender.com/blog/how-to-create-an-npm-package/
 ---------------------------------------------------------------------------------------------------------
-when exclude __test__ folder, one error is happend for solved in, we should create two sperate "tsconfig":
-one of them for local and another one is for production
+1:when exclude __test__ folder, one error is happend for solved in, we should create two sperate "tsconfig":
+  one of them for local and another one is for production
+
+2: change package.json (build script) pass new condfig to build
+tsc -p tsconfig-build.json
 
 https://stackoverflow.com/questions/35470511/setting-up-tsconfig-with-spec-test-folder
 
