@@ -1,6 +1,6 @@
 {
   "name": "spawn-await",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "spwan promise",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -15,7 +15,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
-  "keywords": [],
+  "keywords": ["spawn", "spwan_typescript", "spawn_await", "spwan_async", "promise"],
   "author": "",
   "license": "ISC",
   "devDependencies": {

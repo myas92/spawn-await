@@ -7,11 +7,12 @@
 ```
 import {Spawn} from 'spawn-await'; 
   
-let firstCommand = "ls";
+const firstCommand = "ls"; // write your command
 const {stdout, stderr, status } = Spawn(firstCommand);
 ```
 
-#### Returns: <Object>
-stdout <string> The contents of output.
-stderr <string> The contents of output.
-status <number> | <null> The exit code of the subprocess, or null if the subprocess terminated due to a signal.
+***Returns: \<Object\>***
+
+- `stdout` <string> The contents of output.
+- `stderr` <string> The contents of output.
+- `status` <number> | <null> The exit code of the subprocess, or null if the subprocess terminated due to a signal.
