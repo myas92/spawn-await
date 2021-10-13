@@ -1,11 +1,11 @@
 {
   "name": "spawn-await",
   "version": "0.0.6",
-  "description": "spwan promise",
+  "description": "spawn await",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
+    "test": "jest",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
