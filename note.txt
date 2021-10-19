@@ -16,3 +16,24 @@ tsc -p tsconfig-build.json
 https://stackoverflow.com/questions/35470511/setting-up-tsconfig-with-spec-test-folder
 
 ---------------------------------------------------------------------------------------------------------
+Eslint config: 
+1: npm i -g eslint
+2: eslint --init
+3: asnwer the questions
+
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "google",// از اس لینت گوگل استفاده بشه
+    "rules": {
+        "require-jsdoc": 0, // داکیومنت نخواد
+        "indent": ["error", 2]// فاصله از سمت چپ ۲ تا ااسپیس باشه
+    }
+}
+ --------------------------------------------------------------
+ 1: https://www.npmjs.com/package/eslint
+ 2: https://www.npmjs.com/package/eslint-plugin-prettier //config default for extends key
+ 3: https://www.npmjs.com/package/eslint-config-google
+ میشه از ای اس لینت پریتیر استفاده کنیم یا هر چیزی
